@@ -1,0 +1,22 @@
+1- BlazeDemo (https://blazedemo.com) é um site simples para treino de automações de teste, o qual simula compras de passagens aéreas.
+2- Utilizando o recurso de gravação de passos do Selenium IDE, crie um teste do fluxo completo de uma simulação de compra de uma passagem no BlazeDemo.  
+3- Após finalizar a gravação, execute-a para verificar se está rodando com êxito. Em seguida, exporte o teste selecionando a opção "JavaScript Mocha".
+4- Crie um novo projeto com o Visual Studio Code e traga o código exportado. 
+5- Instale as bibliotecas necessárias e adapte o código para que possa rodar com êxito.
+
+Adicionar frameworks e bibliotecas: 
+5 - Gerenciador de Pacotes - instalar, desinstalar e atualizar Pacotes
+    npm(popular e já vem junto o Node.JS) ou yarn (seguro)
+    através do npm vamos instalar as bibliotecas e frameworks
+6 - Selenium WevbDriver: frameworks de automação de teste web // selenium é "driver"
+   a) Para instalar
+    npm i selenium-wevbdriver (npm -v) ver a versão
+   b) Para ver o que está instalado 
+   npm list
+   c) Para desinstalar
+   "npm uninstall "o que você escreveu"
+ 7 - Mocha: framework de teste de unidade / motor / impulsonador para o teste  
+    a) Para instalar
+    npm i mocha
+    b) npPara executar
+    npx mocha  
